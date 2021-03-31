@@ -881,7 +881,8 @@ export class AppComponent {
       documentTitle: 'PDF',
       repeatTableHeader: true,
       type: 'html',
-      style: '.custom-h3 { color: red; }'
+      scanStyles: true,
+      style: " @media print{@page {size: landscape}} .custom-h3 { color: red; }, .title { color: red; } .tfoot { display: block;  left:0;  position: fixed; bottom: 0;} .page-break	{ display: block; page-break-before: always; }"
     });
 
     //JSON PRINT
