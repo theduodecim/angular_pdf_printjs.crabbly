@@ -16,6 +16,7 @@
       "es2018",
       "dom"
     ],
+    // https://printjs.crabbly.com/
     "allowSyntheticDefaultImports": true,
   },
   "angularCompilerOptions": {
